@@ -25,31 +25,13 @@
       <div class="hero_area">
          <!--header -->
          @include('home.header')
-         <!-- slider section -->
-         @include('home.slider')
-         <!-- end slider section -->
-      </div>
-      <!-- why section -->
-      @include('home.why')
-      <!-- end why section -->
-      
-      <!-- arrival section -->
-      @include('home.new_arrivals')
-      <!-- end arrival section -->
+  
       
       <!-- product section -->
-      @include('home.product')
+      @include('home.product_view')
       <!-- end product section -->
 
-      <!-- subscribe section -->
-      @include('home.subscribe')
-      <!-- end subscribe section -->
-      <!-- client section -->
-      @include('home.client')
-      <!-- end client section -->
-      <!-- footer start -->
-     @include('home.footer')
-      <!-- footer end -->
+     
       <div class="cpy_">
          <p class="mx-auto">© 2023 All Rights Reserved By <a href="">MS. Fashion</a><br> 
          </p>
