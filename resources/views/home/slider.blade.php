@@ -1,6 +1,6 @@
 <section class="slider_section ">
             <div class="slider_bg_box">
-               <img src="images/slider-bg.png" alt="">
+               <img style="height: 37rem; max-width:80%;text-align:center; object-fit: contain;" src="images/slider-bg.png" alt="">
             </div>
             <div id="customCarousel1" class="carousel slide" data-ride="carousel">
                <div class="carousel-inner">
@@ -17,7 +17,7 @@
                                     On Everything
                                  </h1>
                                  <p>
-                                 I'm back with my exploration for another fashion landing page.Thanks to <b>FAMMS FASHION</b> for their awesome style product. You can check out their collection on their official website here. <b>Hope you Like it!</b>
+                                    Welcome to our awesome style products. You can check out our new collection on our official website. <b>Hope you Like it!</b>
 
 
                                  </p>
@@ -44,7 +44,8 @@
                                     On Everything
                                  </h1>
                                  <p>
-                                 I'm back with my exploration for another fashion landing page.Thanks to <b>FAMMS FASHION</b> for their awesome style product. You can check out their collection on their official website here. <b>Hope you Like it!</b>
+                                 Welcome to our awesome style products. You can check out our new collection on our official website. <b>Hope you Like it!</b>
+
                                  </p>
                                  <div class="btn-box">
                                     <a href="" class="btn1">
@@ -69,7 +70,8 @@
                                     On Everything
                                  </h1>
                                  <p>
-                                 I'm back with my exploration for another fashion landing page.Thanks to <b>FAMMS FASHION</b> for their awesome style product. You can check out their collection on their official website here. <b>Hope you Like it!</b>
+                                 Welcome to our awesome style products. You can check out our new collection on our official website. <b>Hope you Like it!</b>
+
                                  </p>
                                  <div class="btn-box">
                                     <a href="" class="btn1">

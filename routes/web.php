@@ -38,7 +38,7 @@ route::post('/update_product_confirm/{id}',[AdminController ::class,'update_prod
 route::get('/order',[AdminController ::class,'order']);
 route::get('/delivered/{id}',[AdminController ::class,'delivered']);
 route::get('/print_pdf/{id}',[AdminController ::class,'print_pdf']);
-
+route::get('/search',[AdminController ::class,'searchData']);
 
 route::get('/product_details/{id}',[HomeController ::class,'product_details']);
 route::post('/add_cart/{id}',[HomeController ::class,'add_cart']);

@@ -17,11 +17,11 @@
         .table_deg{
             border: 2px solid white;
             margin: auto;
-            width: 100%;
+            width: 90%;
         }
         .th_deg{
         text-align: center;
-        padding: 15px;
+        padding: 10px;
         border: 2px solid white;
         }
         .td_deg{
@@ -46,6 +46,15 @@
           <div class="content-wrapper">   
 
       <h1 class="h1_deg">All Orders </h1>
+      <div style="padding-left: 400px; padding-bottom:30px;">
+
+        <form action="{{url('search')}}" method="get">
+          @csrf
+          <input type="text" style="color: black;" name="search" placeholder="search for something"> 
+          <input type="submit" value="Search" class="btn btn-outline-primary">
+
+        </form>
+      </div>
       <table class="table_deg">
         <tr>
             <th class="th_deg">Customer Name </th>
@@ -64,7 +73,7 @@
            
         </tr>
         <tr>
-                    @foreach($order as $order)
+                    @forelse($order as $order)
                     <td class="td_deg">{{$order->name}}</td>
                     <td class="td_deg">{{$order->email}}</td>
                     <td class="td_deg">{{$order->phone}}</td>
@@ -87,7 +96,15 @@
                     </td>
                     <td><a href="{{url('print_pdf',$order->id)}" class="btn btn-secondary">Print PDF</a></td>
                 </tr>
-                @endforeach
+                @empty
+                <tr>
+                  <td style="color: red; text-align:center; font-size:40px;" colspan="20">
+             
+                  <p>No data found.</p>
+              
+                  </td>
+                </tr>
+                @endforelse
       </table>
           
         </div>
