@@ -48,3 +48,4 @@ route::get('/Cash_Order',[HomeController ::class,'Cash_Order']);
 route::get('/stripe/{$total_price}',[HomeController ::class,'stripe']);
 Route::post('/stripe',[HomeController ::class, 'stripePost'])->name('stripe.post');
 route::get('/products',[HomeController ::class,'products']);
+route::get('/product_search',[HomeController ::class,'product_search']);
