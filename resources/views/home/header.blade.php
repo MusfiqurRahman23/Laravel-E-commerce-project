@@ -31,7 +31,7 @@
                            <a class="nav-link" href="{{url('show_cart')}}">Cart</a>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="{{url('order')}}">Order</a>
+                           <a class="nav-link" href="{{url('show_order')}}">Order</a>
                         </li>
 
                         <form class="form-inline">
