@@ -64,7 +64,7 @@
           <h2 class="h2_font">Add Product</h2>
 
 
-          <form action="{{url('/add_product')}}" method="POST" enctype="multipart/form-data">
+          <form action="{{url('/add_product',$products->id)}}" method="POST" enctype="multipart/form-data">
           @csrf
           <div class="div_design">
           <label>Product Title:</label>
