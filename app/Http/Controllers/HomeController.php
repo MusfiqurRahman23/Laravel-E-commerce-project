@@ -55,8 +55,13 @@ class HomeController extends Controller
           $cart=cart::find($product_exist_id)->first();
           $quantity=$cart->quantity;
           $cart->quantity=$quantity+$request->quantity;
+          if($product->discount_price!=null){
+            $cart->price=$product->discount_price * $cart->quantity;
+           }else{
+            $cart->price=$product->price * $cart->quantity;
+           }
           $cart->save();
-          return redirect()->back();
+          return redirect()->back()->with('message','Product added successfully');
 
        }
        else
@@ -96,7 +101,7 @@ class HomeController extends Controller
        $cart->Product_id=$product->id;
        $cart->quantity=$request->quantity;
        $cart->save();
-       return redirect()->back();
+       return redirect()->back()->with('message','Product added successfully');
        }
        else{
         return redirect('login');

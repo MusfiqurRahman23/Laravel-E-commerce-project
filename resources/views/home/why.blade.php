@@ -215,7 +215,7 @@
                            Free Shiping
                         </h5>
                         <p>
-                         variations of passages of Lorem Ipsum available
+                        In Dahak city we provide free delivery charge.  
                         </p>
                      </div>
                   </div>
