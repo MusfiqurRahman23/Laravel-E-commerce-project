@@ -68,7 +68,7 @@
           @csrf
           <div class="div_design">
           <label>Product Title:</label>
-          <input class="text_color" type ="text" name="title" placeholder="Write a title" required=""> 
+          <input class="text_color" type ="text" name="title" placeholder="Give a title" required=""> 
           </div>
           <div class="div_design">
           <label>Description:</label>
