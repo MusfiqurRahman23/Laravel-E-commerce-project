@@ -55,3 +55,4 @@ route::get('/cancel_order/{id}',[HomeController ::class,'cancel_order']);
 route::get('/search_product',[HomeController ::class,'search_product']);
 route::get('/about',[HomeController ::class,'about']);
 route::get('/Contact',[HomeController ::class,'Contact']);
+route::get('/testimonial',[HomeController ::class,'testimonial']);
