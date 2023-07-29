@@ -21,9 +21,7 @@
                         <li class="nav-item">
                            <a class="nav-link" href="{{url('products')}}">Products</a>
                         </li>
-                        <li class="nav-item">
-                           <a class="nav-link" href="home/blog_list.html">Blog</a>
-                        </li>
+                       
                         <li class="nav-item">
                            <a class="nav-link" href="{{url('Contact')}}">Contact</a>
                         </li>
