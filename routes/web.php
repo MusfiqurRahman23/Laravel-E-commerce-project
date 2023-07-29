@@ -40,6 +40,7 @@ route::get('/delivered/{id}',[AdminController ::class,'delivered']);
 route::get('/print_pdf/{id}',[AdminController ::class,'print_pdf']);
 route::get('/search',[AdminController ::class,'searchData']);
 
+
 route::get('/product_details/{id}',[HomeController ::class,'product_details']);
 route::post('/add_cart/{id}',[HomeController ::class,'add_cart']);
 route::get('/show_cart',[HomeController ::class,'show_cart']);
@@ -52,3 +53,5 @@ route::get('/product_search',[HomeController ::class,'product_search']);
 route::get('/show_order',[HomeController ::class,'show_order']);
 route::get('/cancel_order/{id}',[HomeController ::class,'cancel_order']);
 route::get('/search_product',[HomeController ::class,'search_product']);
+route::get('/about',[HomeController ::class,'about']);
+route::get('/Contact',[HomeController ::class,'Contact']);

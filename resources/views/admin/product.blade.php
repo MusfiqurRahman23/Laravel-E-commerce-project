@@ -63,7 +63,7 @@
           <div class='div_center'>
           <h2 class="h2_font">Add Product</h2>
 
-
+      
           <form action="{{url('/add_product',$products->id)}}" method="POST" enctype="multipart/form-data">
           @csrf
           <div class="div_design">
@@ -104,6 +104,7 @@
           <div class="div_design">
           <input type ="submit" value="add product" class="btn btn-primary"> 
           </div>
+      
           </form>
           </div>
           </div>
